@@ -1,0 +1,483 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Body and Background Styles*/
+* {
+	font-family: Verdana, Trebuchet MS, serif;
+	}
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(Images/music_pattern_t.jpg);
+	background-repeat: repeat;
+}
+
+body a {
+	text-decoration: none;
+	list-style-type: none;
+	}
+	aside a {
+		color: white;
+		}
+	aside p a:hover {
+		text-decoration: underline;
+		color: white;
+		}
+		
+#wrapper {
+	width: 956px;
+	margin: 0 auto;	
+}
+
+#header {
+	width: 100%;
+	height: 142px;
+	margin-bottom: 16px;
+	}
+	
+#page_title h1, h2 {
+	color: white;
+	font-family: Verdana, Segoe, serif;
+	font-weight: normal;
+	text-align: center;
+	}
+#page_title h1 {
+	font-size: 54px;
+	font-weight: bold;
+  }
+  #page_title h2 {
+	font-size: 22px;
+	line-height: 0px;
+	  }
+
+#header img {
+	display: block;
+	float: left;
+	margin-top: 45px;
+}
+#page_title {
+	display: block;
+    float: left;
+    margin-left: 180px;
+}
+#social {
+	display: block;
+    float: left;
+    margin-left: 131px;
+    margin-top: 8px;
+	}
+	
+#social img {
+	margin-left: 20px;
+	}
+
+/* Page Content styles */
+#container {
+	width: 100%;
+}
+
+/* Navigation Styles*/
+nav {
+	display: block;
+	float: left;
+	}
+nav ul {
+	margin-top: 22px;
+	padding: 0;
+	}
+nav ul li {
+	list-style-type: none;
+}
+nav ul a {
+	color: #FFFFFF;
+    font-family: Verdana,Segoe,serif;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 32px;
+	}
+nav ul a:hover {
+	text-decoration: underline;}
+/* Main Content styles */
+.main_content {
+	background-color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-top: 36px;
+	width: 584px;
+	min-height: 605px;
+	}	
+	#main_content_index {
+		background-image: url("Images/note.png");
+	background-repeat: no-repeat;}
+	
+	#dance {
+	width: 338px;
+	height: 171px;
+	margin-left: 119px;
+	border-radius: 90px;
+	margin-top: -28px;
+	background-image: url(Images/dance_10.png);
+		}
+	#dance p {
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Verdana, serif;
+	background-color: hsla(0,2%,96%,0.10);
+	margin-top: 17px;
+	padding-top: 56px;
+		}
+		
+		/*Article styles */
+		.main_article {
+	width: 100%;
+			}
+			
+		.main_article p {
+			font-family: Verdana,serif;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: justify !important;
+	text-transform: none !important;
+	}
+	
+	/*Home page bottom styles */
+	#home_page_bottom {
+		width: 100%;
+		height: 186px;
+		}
+	#home_page_bottom p{
+		    text-align: center;
+    text-transform: uppercase;
+		}
+		
+		.links {
+			width: 58%;
+			height: 160px;
+			margin: 0 auto;
+			}
+	.multimedia {
+		display: block;
+		float: left;
+		}
+	.multimedia img {
+		padding:5px;;
+		margin: 0;}
+		
+		/*Aside styles*/
+		aside {
+	background-color: #93BD38;
+	display: block;
+	float: left;
+	height: 605px;
+	margin-bottom: 25px;
+	margin-left: 41px;
+	margin-top: 35px;
+	width: 164px;
+			}
+			aside h3, h4 {
+				padding: 0 5px 0 10px;
+				}
+			aside h3 {
+				color: #456BA0;
+    font-size: 15px;
+    font-weight: bold;
+	line-height: 0;
+				}
+			
+			aside h4 {
+				color: #456BA0;
+    font-size: 25px;
+    line-height: 0;
+    text-transform: uppercase;
+				}
+			aside p {
+				color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+	text-align:justify;
+	padding: 0 10px;
+				}
+				
+		/*Footer styles*/
+		footer {
+			background-color: #778E43;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-size: 9px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+		}
+		footer p {
+			padding: 10px;
+			}
+				
+/* About page styles start */
+/* Page titles styles h6 */
+* h6 {
+	 background-color: rgba(0, 0, 0, 0.46);
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 13px;
+    padding-left: 21px;
+    padding-top: 13px;
+    text-transform: uppercase;
+	 }
+#prom {
+	border: 1px solid #000000;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+	}
+	
+	/* My story styles start here*/
+	#mystory-main-article p {
+		color: white;}
+	#my-story-man-content {
+		background: black;}
+	#mystory_bottom
+	{
+		width: 100%;
+		margin-top:10px;
+		}
+		#mystory-bottom-article {
+			color: #FFFFFF;
+    display: block;
+    float: left;
+    text-align: justify;
+    width: 46%;
+			}
+			#my-story-bottom-pic{
+				display: block;
+    float: left;
+    margin-top: 77px;
+    width: 45%;
+				}
+				/* Packages page styles begin here*/
+				
+	#packages {
+		width: 100%;
+		}
+		
+	#top-packages {
+		width: 100%;
+		display: block;
+		margin-top: -15px;
+		}
+		
+		#silver-circle, #gold-circle
+		{display: block;
+		float: left;
+		margin-left: 27px;
+		}
+		
+		#bottom-packages {
+			clear: both;
+    display: block;
+    margin-top: -63px;
+    position: absolute;
+    width: 100%;
+			}
+			.package-circle {
+   				 border-radius: 124px;
+				 webkit-border-radius: 124px;
+				 mox-border-radius: 124px;
+   				 height: 246px;
+  			 	 width: 246px;
+				}
+				.package-circle ul li {
+					font-size: 12px;
+					list-style-type: circle;
+					}
+					.package-circle ul strong {
+						margin-left: 3px;
+						}
+						.package-circle ul{
+							padding-left: 48px;
+   							 padding-top: 18px;
+							}
+				
+				#silver-circle {
+					background-color: #5e86cb;
+					
+					}
+					#gold-circle {
+						background-color: #e4d52c;
+						}
+						#platinum-circle {
+							background-color: #C5C4BA;
+    						margin: 271px auto 0 164px;
+    						position: absolute;
+							}
+			/* Weddings page styles */
+			#weddings-top {
+	background-image: url(Images/weddings_03.png);
+	background-repeat: no-repeat;
+	margin-top: -13px;
+}
+
+#weddings-top h6 {
+	background-color: rgba(0, 0, 0, 0.46);
+    color: #FFFFFF;
+    margin-left: 0;
+    padding-left: 13px;
+    padding-top: 13px;
+	}
+#weddings-top p {
+	margin-top: 76px;
+	}
+	#plan-your-gig {
+		width: 90% !important;
+		margin: 0 auto;
+		}
+		#plan-your-gig a {
+			color: black;
+			}
+			#plan-your-gig a:hover {
+				text-decoration: underline;
+				}
+#plan-your-gig p {
+	text-align: center !important;
+	border: solid 1px #dc4b2f;
+	border-radius: 15px;
+	mox-border-raduis: 15px;
+	webkit-border-radius: 15px;
+	}		
+#events-bottom p {
+	text-align: center !important;
+	}
+	#event-links {
+		width: 51% !important;
+		}
+		/* School Celebrations page styles */
+		#school-celebrations-top {
+	background-image: url(Images/school-celebrations_03.png);
+	background-repeat: no-repeat;
+	margin-top: -13px;}
+	
+	#school-celebrations-top h6 {
+	padding-top: 13px;
+	color: white;
+	background-color: hsla(0,0%,0%,0.46);}
+	
+	#school-celebrations-top p {
+	margin-top: 76px;}
+	
+	/* Corporate Events */
+	#corporate-events-top {
+		background-image: url(Images/corporate-events_03.png);
+	background-repeat: no-repeat;
+	margin-top: -13px;
+	}
+	#corporate-events-top h6 {
+	background-color: rgba(0, 0, 0, 0.46);
+    color: #FFFFFF;
+    margin-left: 0;
+    padding-left: 13px;
+    padding-top: 13px;
+	}
+	#corporate-events-top p {
+	margin-top: 76px;
+	}
+	/* Special Occasions page styles */
+	#special-occasions-top {
+		background-image: url(Images/special-occasions_03.png);
+	background-repeat: no-repeat;
+	margin-top: -13px;
+	}
+	#special-occasions-top h6 {
+	background-color: rgba(0, 0, 0, 0.46);
+    color: #FFFFFF;
+    margin-left: 0;
+    padding-left: 13px;
+    padding-top: 13px;
+	}
+	#special-occasions-top p {
+	margin-top: 76px;
+	}
+	
+	/* Reviews page styles */
+.reviews {
+	width: 90%;
+	margin: 0 auto;
+			}
+			
+		.reviews p {
+    border: 2px solid #778E43;
+    border-radius: 10px;
+    font-family: Verdana,serif;
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: justify !important;
+    text-transform: none !important;
+}
+/* Gallery page styles */
+.gallery-outer {
+    background: url("Images/music_pattern_t.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 435px;
+    padding-top: 11px;
+    width: 100%;
+}
+	.gallery-large {
+		width: 392px;
+		margin: 0 auto;
+		}
+		.gallery-large img {
+			border: 3px solid #FFFFFF;
+			}
+.gallery-thumb {
+	/* [disabled]background-color: #7F7F7F; */
+	height: 67px;
+	width: 100%;
+	background-image: url(Images/music_pattern_t.jpg);
+}
+.gallery-thumb img:hover {
+	border: solid 2px white;
+	}
+	.thumb {
+		display: block;
+		float: left;
+		margin-left: 33px;
+   		margin-top: 10px;
+		}
+		#caption p {
+			color: white;
+			text-align: center;
+			}
+		/* Resources page styles */
+		#resources {
+			
+			width: 100%;
+			}
+			#resources img {
+				margin: 23px 0 0 74px;
+				}
+		.resources-box {
+			background-color: #EBEBEB;
+    border: 5px solid #DB4949;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    margin-left: 31px;
+    width: 40%;			}
+			.resources-box p {
+				 font-size: 14px;
+    padding: 18px;
+    text-align: justify;
+				}
+				.resources-box p strong {
+					margin-left: 15px;
+					}
+	#resources a {
+		color: black;}
+		
+		#resources a p:hover {
+	text-decoration: underline;			
+			}

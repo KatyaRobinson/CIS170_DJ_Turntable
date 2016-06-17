@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>DJ Turntable: Musical and Entertainment Services</title>
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="OptionalRegion1" type="boolean" value="true" -->
+<!-- TemplateParam name="OptionalRegion2" type="boolean" value="true" -->
+</head>
+
+<body onLoad="MM_preloadImages('../Images/roll_16.png','../Images/roll_18.png','../Images/roll_22.png','../Images/roll_24.png')">
+<div id="wrapper"><!-- TemplateBeginRepeat name="RepeatRegion1" -->
+  <div id="header"> <a href="../index.htm"><img src="../Images/logo.png" width="65" height="73" alt=""/></a>
+    <div id="page_title">
+      <h1>DJ Turntable</h1>
+      <h2>Musical and Entertainment Services</h2>
+    </div>
+    <div id="social"> <img src="../Images/transparent-facebook-logo-icon.png" width="38" height="38" alt="Facebook"/> <img src="../Images/transparent-twitter-logo-icon.png" width="38" height="38" alt=""/> <img src="../Images/phone icon.png" width="38" height="38" alt=""/> </div>
+  </div>
+<!-- TemplateEndRepeat --><!--header end-->
+
+<div id="container"><!-- TemplateBeginRepeat name="nav" -->
+  <nav>
+    <ul>
+      <a href="../index.htm">
+        <li>Home</li>
+        </a> <a href="../about.htm">
+          <li>About</li>
+          </a> <a href="../packages.htm">
+            <li>Packages</li>
+            </a> <a href="../events.htm">
+              <li>Events</li>
+              </a> <a href="../reviews.htm">
+                <li>Reviews</li>
+                </a> <a href="../gallery.htm">
+                  <li>Gallery</li>
+                  </a> <a href="../resources.htm">
+                    <li>Resources</li>
+                    </a> <a href="../contact.htm">
+                      <li>Contact</li>
+                      </a>
+    </ul>
+  </nav>
+<!-- TemplateEndRepeat -->
+  <div class="main_content"><!-- TemplateBeginIf cond="OptionalRegion2" -->
+    <div id="dance">
+      <p>We make music the heartbeat of your
+        celebration</p>
+    </div>
+  <!-- TemplateEndIf -->
+    <article class="main_article"><!-- TemplateBeginEditable name="main-content" -->
+        <p>DJ Turntable is a full-service disc jockey and entertainment company that delivers fantastic music, great sound, and amazing lighting with spot-on professionalism. Whether you’re planning a wedding, school celebration, corporate event, or private party, DJ Turntable will make music the heartbeat of your celebration. We use state-of-the-art equipment to pump out the songs that you want to hear. With a  digital music library of over 50,000 songs, you’ll undoubtedly be able to create the playlist you’ve been dreaming of. Our years of experience guarantee that you get stress-free event planning and happy, dancing guests.</p>
+        <!-- TemplateEndEditable --></article>
+        
+      <div id="home_page_bottom"><!-- TemplateBeginIf cond="OptionalRegion1" -->
+        <p>See some fun and hear some of the music!</p>
+        <div id="links">
+          <div class="multimedia"> <a href="http://www.youtube.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','../Images/roll_16.png',1)"><img src="../Images/link_16.png" alt="" width="150" height="72" id="Image8"></a></div>
+          <div class="multimedia"> <a href="http://www.youtube.com" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../Images/roll_18.png',1)"><img src="../Images/link_18.png" alt="" width="152" height="72" id="Image9"></a></div>
+          <div class="multimedia"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','../Images/roll_22.png',1)"><img src="../Images/link_22.png" alt="" width="151" height="72" id="Image10"></a></div>
+          <div class="multimedia"> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','../Images/roll_24.png',1)"><img src="../Images/link_25.png" alt="" width="151" height="72" id="Image11"></a></div>
+        </div>
+      <!-- TemplateEndIf --></div> 
+      <!--home_page_bottom end-->
+         
+        </div> <!--main content end--><!-- TemplateBeginRepeat name="sidebar" -->
+        <aside>
+          <h3>meet</h3>
+          <h4>the dg</h4>
+          <p>Dylan Jackson has a passion for music and loves sharing it with great people. Read his story and get to know Dj Turntable.</p>
+          <h3>event</h3>
+          <h4>services</h4>
+          <p>DJ Turntable has loads of experience playing for all types of audience at all kinds of celebration. See how much fun you can have…</p>
+          <h3>rave</h3>
+          <h4>reviews</h4>
+          <p>We’re not bragging, but our clients are! Here’s the best on the street… “Out students were thrilled, and even the teachers enjoyed the evening!”</p>
+        </aside>
+        <!-- TemplateEndRepeat --></div> <!--end container--><!-- TemplateBeginRepeat name="footer" -->
+        <footer>
+          <p>c 2014 DJ Turntable, Inc. All Rights Reserved.<br>
+            Address, Phone, and Fax numbers</p>
+        </footer>
+        <!-- TemplateEndRepeat --></div> 
+<!--wrapper end-->
+</body>
+</html>
